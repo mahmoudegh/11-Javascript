@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Basics</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script>
+        function changeMeClick() {
+         document.getElementById("test").innerHTML = "You Clicked Once";
+      }
+
+      function changeMeDblClick() {
+       document.getElementById("test").innerHTML = "You Clicked Double";
+    }
+
+    </script>
+  </head>
+  <body>
+    <div id="test">This Is Test</div>
+    <button onclick="changeMeClick()" ondblclick="changeMeDblClick()">Click Me</button>
+
+    <!-- Links -->
+    <hr>
+    <a href="https://www.youtube.com/watch?v=fcB3SfQeJcE&list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh&index=22"
+       target="blank">Video Of The Course</a>
+    <script src="js/main.js"></script>
+  </body>
+</html>
